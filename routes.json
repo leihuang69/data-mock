@@ -1,0 +1,6 @@
+{
+  "/social_mp/hunter/user_manage/v1/user_list": "/user_list?_limit=100",
+  "/social_mp/hunter/user_manage/v1/user_list/:id": "/user_list/:id",
+  "/social_mp/hunter/user_manage/v1/user_list?limit=:num": "/user_list?_limit=:num",
+  "/social_mp/hunter/user_manage/v1/user_list?offset=:num":"/user_list?_start=:num&_limit=100"
+}

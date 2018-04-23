@@ -1,0 +1,32 @@
+{
+  "name": "mockServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./server.js",
+    "generate": "rm db.json && node generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "bcrypt": "^2.0.0",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.17.3"
+  },
+  "babel": {
+  "presets": [
+    "latest"
+  ]
+}
+}
